@@ -1,0 +1,243 @@
+#titulo {
+	text-align: center; /* Alineación de texto al centro de la página*/
+	color: #4d180d; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 400%; /* Tamaño de texto*/
+	line-height: 100px; /* Grosor de las letras del texto*/
+	font-stretch: 100PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.5em; /* Espaciado que existe entre letras en el texto*/
+}
+
+body {
+	background-image: url("3.jpg");  /* Imagen de fondo*/
+	margin: 0; /* Maergen en 0 de la cabecera fija*/
+	padding: 0; /* Padding en 0 de la cabecera fija*/
+	padding-top: 130px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+#line-head {
+	background: #333; /* cabecera fija en color gris */
+	height: 80px; /* Tamaño de la barra en la cabecera fija */
+	width: 100%; /* La cabecera ocupa el ancho completo de la página */
+	left: 0; /* Posición de la cabecera al lado izquierdo */
+	top: 0; /* Posición de la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+header {
+	background: #333; /* cabecera fija en color gris */
+	height: 80px; /* Tamaño de la barra en la cabecera fija */
+	width: 100%; /* La cabecera ocupa el ancho completo de la página */
+	left: 0; /* Posición de la cabecera al lado izquierdo */
+	top: 0; /* Posición de la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+.userdata{	/* Intrucciones de ajuste a las barras de validación de datos */
+	float: right;
+	color: white;
+	padding-right:15px;
+	font-family: Roboto;
+	padding-top: 36px;
+	font-size: 100%;
+ }
+
+#img{	/* cabecera fija en color gris */
+	float: left;		
+	padding-left:30px;
+	padding-top: 10px;
+ }
+
+.img-aling{
+	clear: none;
+	height: 500px;
+	float: left;
+	margin-left: 290px;
+}
+
+.content {
+	text-align: justify;
+    margin: 20px;
+    padding-top: 0px;
+    color: white;
+    font-size: 122%;
+ }
+
+.div-leftup{
+	margin-left: 50px;
+	width: 400px;
+	height: 500px;
+	float: left;
+	background-color:rgba(100,0,0, 0.5);
+}
+
+.div-global{
+	height: 500px;
+}
+
+.div-rightup{
+	margin-right: 50px;
+	width: 400px;
+	height: 500px;
+	float: right;
+	background-color:rgba(100,0,0, 0.5);
+}
+
+.div-center{
+	padding-top:5px;
+	height: 250px;
+	width: 700px;
+	margin: auto;
+	background-color:rgba(100,0,0, 0.5);
+}
+
+.subtitulo{
+ 	text-align: center; 
+	color: white; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 150%; /* Tamaño de texto*/
+	line-height: 40px; /* Grosor de las letras del texto*/
+	font-stretch: 80PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.4em;
+}
+
+.subtitulo-2{
+ 	text-align: center; 
+	color: #4d180d; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 150%; /* Tamaño de texto*/
+	line-height: 50px; /* Grosor de las letras del texto*/
+	font-stretch: 80PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.4em;
+	padding-top: 50px;
+}
+
+.icon-aling{
+	float:right;
+	margin-right: 200px;
+	margin-top: -150px;
+}
+#pestaña {
+	margin-top: 80px;
+	background-color: #ccc;
+	opacity: 0.95;
+	width: 240px;
+	height: 1000px;	
+	margin-left: -240px;
+	-webkit-transition: all .2s ease-in-out; 
+}
+
+#pestaña ul{
+	list-style-type: none;
+	list-style:none;
+}
+
+#pestaña ul li{
+	height: 80px;
+	padding-top: 35px;
+	box-sizing: border-box;/*para que el padding no modifique el tamaño del div*/
+	font-size: 120%; 
+	color: #4d180d; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 130%; /* Tamaño de texto*/
+	line-height: 100px; /* Grosor de las letras del texto*/
+	font-stretch: 100PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.01em; 
+	list-style: none;
+}
+
+#pestaña ul li a:hover{
+	display:block; 
+	text-decoration:none;
+	background: rgba(0,0,0, 0.3);	
+}
+	
+#redes {
+	margin-top: 30px;
+}
+
+#like{
+	margin: auto;
+	padding-right: 95px;
+	width: 186px;
+	height: 238px;
+}
+
+table {
+    font-family: Roboto;
+    letter-spacing: 0.03em; 
+    width: 70%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-aling{ 
+	text-align: center;
+	margin: auto;
+	padding-top: 0px;
+	padding-left: 450px;
+	background-image: url(vp.png);
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+
+.url-background{
+	background-image: url(vp.png);
+    background-repeat:no-repeat;
+    background-size: 1350px;
+}
+
+.barratabla{
+	background-image: url(barra.png);
+    background-repeat:no-repeat;
+    padding-top: 0px;
+ 	background-position: center;
+ 	background-size: 500px 70px;
+ 	background-position: 50% 50%; 
+ 	background-position: bottom;
+}
+
+#map iframe{
+	width: 900px;
+	height: 500px;
+	padding-top: 45px;
+}
+
+.img-cel { 
+	width: 10px;
+	padding-left: 700px;
+
+
+}
+.alerta{
+	text-align: center; 
+	font-family: Roboto; 
+	font-variant-caps: small-caps; 
+	font-size: 100%; 
+	line-height: 10px; 
+	font-stretch: 10PX;  
+	letter-spacing: 0.3em; 
+	text-align: left 100px;
+	padding-left: 10px;
+	padding-left:150px;
+	margin-right: 100px;
+}
+.alertamensaje{
+	width: 300px;
+}

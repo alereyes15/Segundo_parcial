@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.a1{
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 200px;
+}
+.titulo{
+	
+    
+    color:blue;
+	text-align: right;
+	font-family:Georgia, serif;
+	font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+
+}
+.b{
+	background: ;
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+.c{
+	width: 250px;
+	height: 50px;
+	float: left;
+}
+
+
+.a2{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 50px;
+}
+
+.a3{
+	/*background: url(centro.jpg);*/
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 480px;
+}
+
+.a4{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 50px;
+}
+
+.a5{
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 200px;
+}
+.b2{
+	background: blue;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.c2{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 50px;
+	height: 200px;
+	float: left;
+}
+.d2{
+	background: blue;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.e2{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 50px;
+	height: 200px;
+	float: left;
+}
+.f2{
+	background: blue;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+
+.a6{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 25px;
+}
+
+.a7{
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 200px;
+}
+.b3{
+	background: black;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.c3{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	width: 50px;
+	height: 200px;
+	float: left;
+}
+.d3{
+	background: black;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.e3{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	width: 50px;
+	height: 200px;
+	float: left;
+}
+.f3{
+	background: black;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+
+.a8{
+	visibility: hidden;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 1000px;
+	height: 150px;
+}
+
+
+.copy{
+	line-height: 50px;
+	background: #FC3C83;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 400px;
+	height: 50px;
+	float: left;
+}
+
+.final{
+	line-height: 75px;
+	background: white;
+	margin:0 auto;
+	position: center;
+	text-align:center;
+	width: 400px;
+	height: 50px;
+	float: right;
+}
+
+p{
+	color: black;
+}
